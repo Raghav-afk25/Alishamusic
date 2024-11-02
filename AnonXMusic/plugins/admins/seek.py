@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import YouTube, app
+from AnonXMusic import Spotify, app
 from AnonXMusic.core.call import Anony
 from AnonXMusic.misc import db
 from AnonXMusic.utils import AdminRightsCheck, seconds_to_min
