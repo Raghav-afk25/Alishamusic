@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from AnonXMusic import YouTube, app
+from AnonXMusic import Spotify, app
 from AnonXMusic.core.call import Anony
 from AnonXMusic.misc import db
 from AnonXMusic.utils.database import get_loop
