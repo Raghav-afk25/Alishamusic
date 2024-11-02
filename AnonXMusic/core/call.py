@@ -18,7 +18,7 @@ from pytgcalls.types import (
 )
 from pytgcalls.types.stream import StreamAudioEnded
 import config
-from AnonXMusic import LOGGER, Spotify, app
+from AnonXMusic import LOGGER, YouTube Music, app
 from AnonXMusic.misc import db
 from AnonXMusic.utils.database import (
     add_active_chat,
