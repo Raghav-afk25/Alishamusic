@@ -9,7 +9,7 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnonXMusic import Spotify, app
+from AnonXMusic import Youtube, app
 from AnonXMusic.misc import SUDOERS
 from AnonXMusic.utils.database import (
     get_assistant,
@@ -66,7 +66,7 @@ def PlayWrapper(command):
             if message.reply_to_message
             else None
         )
-        url = await Spotify.url(message)
+        url = await Youtube.url(message)
         if audio_telegram is None and video_telegram is None and url is None:
             if len(message.command) < 2:
                 if "stream" in message.command:
